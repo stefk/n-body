@@ -136,5 +136,5 @@ function start() {
   draw(ctx);
 }
 
-
+window.addEventListener("error", (event) => alert(event.message));
 window.addEventListener("load", start);
